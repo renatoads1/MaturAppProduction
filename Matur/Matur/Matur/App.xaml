@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Matur.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Orage1">#fff4ce</Color>
+            <Color x:Key="Orage2">#ffe99e</Color>
+            <Color x:Key="Orage3">#ffdb60</Color>
+            <Color x:Key="Orage4">#ffd23b</Color>
+            <Color x:Key="Orage5">#ffcc20</Color>
+            <Color x:Key="Orage6">#ffc400</Color>
+            <Color x:Key="Silver1">#f8f8f8</Color>
+            <Color x:Key="Silver2">#e6e6e6</Color>
+            <Color x:Key="Silver3">#dadada</Color>
+            <Color x:Key="Silver4">#c5c5c5</Color>
+            <Color x:Key="Silver5">#a6a6a6</Color>
+            <Color x:Key="Silver6">#8d8d8d</Color>
+            <Color x:Key="Branco1">#ffffff</Color>
+            <Color x:Key="Branco2">#fefefe</Color>
+            <Color x:Key="Black1">#000000</Color>
+            
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="Padding" Value="15"/>
+                <Setter Property="NavigationPage.HasNavigationBar" Value="False"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="Title">
+                <Setter Property="FontFamily" Value="Bold"/>
+                <Setter Property="FontSize" Value="28"/>
+                <Setter Property="TextColor" Value="{StaticResource Orage6}"/>
+            </Style>
+
+            <Style TargetType="Label" x:Key="Text2">
+                <Setter Property="FontFamily" Value="Bold"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="{StaticResource Silver6}"/>
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="{StaticResource Silver2}"/>
+                <Setter Property="FontFamily" Value="Medium"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="TextColor" Value="{StaticResource Black1}"/>
+                <Setter Property="PlaceholderColor" Value="{StaticResource Orage6}"/>
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource Orage3}" />
+                <Setter Property="FontFamily" Value="Bold" />
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="CornerRadius" Value="5"/>
+                <Setter Property="TextColor" Value="{StaticResource Black1}"/>
+            </Style>
+            <Style TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{StaticResource Orage1}" />
+                <Setter Property="BorderColor" Value="{StaticResource Orage3}" />
+                <Setter Property="Padding" Value="20" />
+                <Setter Property="HasShadow" Value="True" />
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="5" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

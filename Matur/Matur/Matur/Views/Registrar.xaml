@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Matur.Views.Registrar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Text="&#60;" Clicked="Voltar" Padding="0" HeightRequest="2"/>
+                <Label Text="App Matur" Padding="30,5,0,10" Grid.Column="1" Style="{StaticResource Title}"/>
+            </Grid>
+            <BoxView Color="#fff" HeightRequest="1" />
+            <Label Padding="0,70,0,0"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Entry Placeholder="CNPJ" Grid.Row="0" Grid.ColumnSpan="2"/>
+            <Entry Placeholder="Telefone Com DDD" Grid.Row="1" Grid.ColumnSpan="2" />
+            <Entry Placeholder="Nome Completo" Grid.Row="2" Grid.ColumnSpan="2" />
+            <Button Text="Enviar" Clicked="RegistrarNovo" Grid.Row="3" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
