@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oEKACZq3QimhN4WwTRWToiJE0mQ2TVG7ZyJPMO6c/rCYGyylUbKOebsFzvIP+JLol9NM1nDM5eXAgV8wwssHdg==",
+  "dgSpecHash": "o5SxS1qi7VeHZdTgN5XLH6QU8zcP5xkyMeLxLaA8K+huWsmQHBfuroHhqCjSQKGNpUYV1nEw5lT5gONCSjrwAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\renatolacerda\\source\\repos\\MaturAppProduction\\Matur\\Matur\\Matur.UWP\\Matur.UWP.csproj",
   "expectedPackageFiles": [
@@ -108,7 +108,7 @@
     "C:\\Users\\renatolacerda\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\renatolacerda\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
     "C:\\Users\\renatolacerda\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\renatolacerda\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": [
     {

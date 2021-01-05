@@ -13,7 +13,6 @@
                 <Label Text="App Matur Start Page" Padding="30,5,0,10"  Style="{StaticResource Title}"/>
                 <Button Text="X" Grid.Column="1"/>
             </Grid>
-
             <BoxView Color="#fff" HeightRequest="1" />
             <Label Padding="0,70,0,0"/>
             <Frame>

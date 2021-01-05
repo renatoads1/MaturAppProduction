@@ -10,6 +10,8 @@ namespace Matur
         {
             InitializeComponent();
             MainPage = new NavigationPage(new Views.Login());
+            //MainPage = new Matur.Views.Paginas.MenuLateral();
+
         }
 
         protected override void OnStart()

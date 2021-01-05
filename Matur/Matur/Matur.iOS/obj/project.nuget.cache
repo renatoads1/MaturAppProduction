@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BAcfB7SYe+WvoHSFHP9EIiwUQHcI0yfIwVUKj6AaD4fciJ1b3KDdBBdczxbUj61Mj6IJ4ZWonBoWtZfn5zMJhQ==",
+  "dgSpecHash": "Cw29Rsrk9Eo6lwnjBGxATAqrHJBI0jTkT7dxUXoCUDDlKSDbC54i77Yvd5Xz6M/JUAESHWXbTg7cb6NzV19rBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\renatolacerda\\source\\repos\\MaturAppProduction\\Matur\\Matur\\Matur.iOS\\Matur.iOS.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,7 @@
     "C:\\Users\\renatolacerda\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\renatolacerda\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\renatolacerda\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\renatolacerda\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": [
     {

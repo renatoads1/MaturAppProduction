@@ -11,7 +11,7 @@ namespace Matur.Services
         public async Task<string> GetUser(string email, string password ) {
 
             //HttpResponseMessage  resopese = await _client.GetAsync($"{BaseUri} ?user={email}&senha={password}");
-            HttpResponseMessage  resopese = await _client.GetAsync($"{BaseUri}");
+            HttpResponseMessage  resopese = await _client.GetAsync($"{BaseUri}Autenticacaos?user={email}&password={password}");
             if (resopese.IsSuccessStatusCode == true) {
                 //ler conteudo
                 string content = await resopese.Content.ReadAsStringAsync();

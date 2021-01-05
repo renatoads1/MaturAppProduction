@@ -25,8 +25,8 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
             </Grid>
-            <Entry Placeholder="CNPJ" Grid.Row="0" Grid.ColumnSpan="2"/>
-            <Entry Placeholder="Senha" Grid.Row="1" Grid.ColumnSpan="2" />
+            <Entry x:Name="txtUser" Placeholder="CNPJ" Grid.Row="0" Grid.ColumnSpan="2"/>
+            <Entry x:Name="txtSenha" Placeholder="Senha" Grid.Row="1" Grid.ColumnSpan="2" />
             <Button Text="Entrar" Clicked="GoStartPage" Grid.Row="2" />
             <Button Clicked="GoToRegistrar" Text="Cadastrar" Grid.Row="2" Grid.Column="1"/>
         </StackLayout>

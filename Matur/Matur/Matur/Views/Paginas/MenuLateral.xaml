@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Matur.Views"
+             x:Class="Matur.Views.Paginas.MenuLateral">
+                
+    <!--menu-->
+    
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" Padding="0">
+            <ScrollView BackgroundColor="#cecece" Margin="0" Padding="0">
+                <StackLayout Margin="0" Padding="0">
+                    <Button Text="Website Matur" Clicked="WebsiteMatur"/>
+                    <Button Text="Relatórios" Clicked="Relatorios"/>
+                    <Button Text="Perfil" Clicked="Perfil"/>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <!--conteudo-->
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:StartPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

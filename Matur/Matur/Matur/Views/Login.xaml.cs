@@ -23,14 +23,18 @@ namespace Matur.Views
 
         private async void GoStartPage(object sender, EventArgs e)
         {
-            var retorno = await _service.GetUser("", "");
-            if (String.IsNullOrEmpty(retorno))
+            var user = txtUser.Text;
+            var password = txtSenha.Text;
+
+            var retorno = await _service.GetUser(user, password);
+            if (String.IsNullOrEmpty(retorno)||retorno == "[]")
             {
-                await DisplayAlert("Resposta", "Erro Variavel retorno nula = "+retorno, "ok");
+                await DisplayAlert("Resposta", "Usuário e ou Senha Invalido", "ok");
             }
             else {
-                await DisplayAlert("Resposta", retorno, "ok");
-                App.Current.MainPage = new NavigationPage(new StartPage());
+                //await DisplayAlert("Resposta", retorno, "ok");
+                //App.Current.MainPage = new NavigationPage(new StartPage());
+                App.Current.MainPage = new Matur.Views.Paginas.MenuLateral();
             }
             
 

@@ -14,3 +14,8 @@ C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Deb
 C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
 C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Debug\netstandard2.0\Views\Registrar.xaml.g.cs
 C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Debug\netstandard2.0\Views\StartPage.xaml.g.cs
+C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Debug\netstandard2.0\Views\Paginas\ItensMenu.xaml.g.cs
+C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Debug\netstandard2.0\Views\Paginas\MenuLateral.xaml.g.cs
+C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Debug\netstandard2.0\Views\Paginas\Pagina1.xaml.g.cs
+C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Debug\netstandard2.0\Views\Paginas\Pagina2.xaml.g.cs
+C:\Users\renatolacerda\source\repos\MaturAppProduction\Matur\Matur\Matur\obj\Debug\netstandard2.0\Views\Paginas\Pagina3.xaml.g.cs

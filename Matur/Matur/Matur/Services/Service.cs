@@ -8,7 +8,7 @@ namespace Matur.Services
     public abstract class Service
     {
         protected HttpClient _client;
-        protected string BaseUri = @"https://devrobot.com.br/api/Autenticacaos/1";
+        protected string BaseUri = @"https://devrobot.com.br/api/";
 
         public Service()
         {
